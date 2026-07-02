@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Argosy — Content Publishing &amp; Analytics Platform</title>
+<meta name="description" content="Argosy is an in-house content publishing and analytics platform that creates product-introduction content for its own social media accounts and measures engagement.">
+<style>
+  :root {
+    --ink: #1b2733;
+    --muted: #5b6b7b;
+    --accent: #1a4a6b;
+    --bg: #f7f9fb;
+    --card: #ffffff;
+    --line: #e3e9ef;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.7;
+  }
+  header {
+    background: linear-gradient(135deg, #12354e, #1a4a6b 60%, #266693);
+    color: #fff;
+    padding: 72px 24px 64px;
+    text-align: center;
+  }
+  header h1 { font-size: 2.6rem; letter-spacing: 0.04em; margin-bottom: 12px; }
+  header p.tagline { font-size: 1.15rem; opacity: 0.92; max-width: 640px; margin: 0 auto; }
+  header p.tagline-ja { font-size: 0.98rem; opacity: 0.8; max-width: 640px; margin: 10px auto 0; }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 64px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 32px; margin-bottom: 24px; }
+  h2 { color: var(--accent); font-size: 1.3rem; margin-bottom: 14px; }
+  h3 { font-size: 1.02rem; margin: 18px 0 6px; }
+  p, li { color: var(--muted); }
+  p.ja { font-size: 0.94rem; margin-top: 6px; }
+  ul { padding-left: 1.3em; margin: 8px 0; }
+  li { margin: 6px 0; }
+  strong { color: var(--ink); }
+  footer { text-align: center; padding: 28px 24px 48px; color: var(--muted); font-size: 0.9rem; }
+  footer a { color: var(--accent); text-decoration: none; }
+  code { background: #eef2f6; border-radius: 4px; padding: 1px 6px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Argosy</h1>
+  <p class="tagline">An in-house content publishing and analytics platform for product-introduction media.</p>
+  <p class="tagline-ja">商品紹介コンテンツの制作・投稿・効果測定を行う自社運用型メディア運営基盤</p>
+</header>
+<main>
+  <section>
+    <h2>What is Argosy?</h2>
+    <p>
+      Argosy is a self-hosted software platform that plans, creates, and publishes
+      product-introduction content — short videos, images, and text posts — to the
+      social media accounts <strong>operated by the Argosy team itself</strong>,
+      and measures how that content performs.
+    </p>
+    <p class="ja">
+      Argosyは、商品紹介のショート動画・画像・テキスト投稿を制作し、自らが運営する
+      ソーシャルメディアアカウントへ投稿して、その反応を計測するセルフホスト型の
+      ソフトウェアプラットフォームです。
+    </p>
+  </section>
+
+  <section>
+    <h2>How Argosy uses platform APIs</h2>
+    <ul>
+      <li><strong>Publishing:</strong> creates posts (Pins, videos, text) on our own accounts only.</li>
+      <li><strong>Management:</strong> updates or deletes our own posts when needed.</li>
+      <li><strong>Analytics:</strong> reads engagement metrics of our own posts to improve future content.</li>
+      <li><strong>Low volume:</strong> a few posts per day at most, each reviewed by a human before publishing.</li>
+    </ul>
+    <p class="ja">
+      各プラットフォームAPIは、自社アカウントへの投稿・管理・自社投稿の効果測定にのみ使用します。
+      投稿は1日数件程度で、公開前に必ず人間が確認します。
+    </p>
+    <h3>What Argosy does not do</h3>
+    <ul>
+      <li>No collection, scraping, or analysis of other users' data.</li>
+      <li>No resale or third-party sharing of any API data.</li>
+      <li>No bulk or automated engagement (likes, follows, comments).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Affiliate disclosure</h2>
+    <p>
+      Some content published by Argosy contains affiliate links (for example, links to
+      Amazon product pages as an Amazon Associate). Every such post carries a clear
+      affiliate disclosure, and account profiles include the required disclosure text.
+    </p>
+    <p class="ja">
+      Argosyが投稿するコンテンツにはアフィリエイトリンク(Amazonアソシエイト等)を含む場合があります。
+      該当する投稿には必ず開示文を明記し、アカウントプロフィールにも所定の開示を記載します。
+    </p>
+  </section>
+
+  <section>
+    <h2>Privacy</h2>
+    <p>
+      Argosy manages only content and analytics belonging to its own accounts.
+      It does not collect personal information from visitors or platform users.
+      Click statistics on Argosy-managed links are aggregated and contain no
+      personally identifiable information.
+    </p>
+    <p class="ja">
+      Argosyは自社アカウントのコンテンツと統計情報のみを扱い、訪問者や他ユーザーの個人情報を収集しません。
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Operator: Argosy project (Kazuhiro Kotsutsumi)<br>
+      Email: <code>kotsutsumi.argosy@gmail.com</code><br>
+      GitHub: <a href="https://github.com/kotsutsumi">github.com/kotsutsumi</a>
+    </p>
+  </section>
+</main>
+<footer>
+  © 2026 Argosy Project — <a href="https://github.com/kotsutsumi">kotsutsumi</a>
+</footer>
+</body>
+</html>
